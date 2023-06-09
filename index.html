@@ -1,32 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instagram Post</title>
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body style="background-color:black;">
-  <div style="background-color:white;width:300px;">
-    <img src="https://www.trecebits.com/wp-content/uploads/2019/02/Instagram-Usuarios.jpg" alt="User Photo" width="40" height="75">
-    <h4 class="username">lia88</h4>
-  </div>
-  
-  <div style="background-color:white;width:300px;">
-    <img src="https://w0.peakpx.com/wallpaper/330/867/HD-wallpaper-mountain-lake-landscape-clouds-mountain-lake-patagonia-argentina-nature.jpg" alt="Your Photo" class="photo" width="300" height="400">
-  </div>
-  
-  <div style="background-color:white;width:300px;">
-    <a href="#"><i class="fas fa-heart"></i> </a>
-    <a href="#"><i class="fas fa-comment"></i> </a>
-    <a href="#"><i class="fas fa-paper-plane"></i> </a>
-  </div>
-  
-  <div style="background-color:white;width:300px;">
-    <p> Liked by 4geeksacademy, lia88 and 10, 897 others</p>
-  </div>
-  
-  <div style="background-color:white;width:300px;">
-    <p>El sur de Argentina es un cofre repleto de paisajes naturales que cortan la respiración.</p>
-    <p>It can contain multiple paragraphs or any other content.</p>
-  </div>
-</body>
-</html>
+
+<body>
+  <!-- Post -->
+  <div class="post-container">
+
+    <!-- Header -->
+    <div class="post-header">
+      <div class="post-header-icon">
+        <!-- HTML icon on the left -->
+        <img src="https://cdn-icons-png.flaticon.com/512/25/25252.png" alt="HTML icon">
+      </div>
+
+      <div class="post-header-text">
+        <!-- HTML text on the left -->
+        <div><b> HTML5 </b></div>
+        <div>Lia88</div>
+      </div>
+
+      <div class="post-header-options">
+        <!-- Options dots on the right -->
+        <img src="https://cdn-icons-png.flaticon.com/512/61/61140.png" alt="Options dots">
+      </div>
+    </div>
+
+    <!-- Image -->
+    <div class="post-image">
+      <img src="https://imgcap.capturetheatlas.com/wp-content/uploads/2023/06/Capture-the-Atlas-Patagonia-Photo-Tour9.jpg"
+        alt="Patagonia">
+    </div>
+
+    <!-- Icons -->
+    <div class="post-icons">
+      <div class="icon">
+        <!-- Like icon -->
+        <i class="fa-regular fa-heart" style="color: black;"></i>
+      </div>
+      <div class="icon">
+        <!-- Comment icon -->
+        <i class="fa-regular fa-comment" style="color: black;"></i>
+      </div>
+      <div class="icon">
+        <!-- Plane icon -->
+        <i class="fa-regular fa-paper-plane" style="color: black;"></i>
+      </div>
+      <div class="bookmark">
+        <!-- Bookmark icon -->
+        <i class="fa-regular fa-bookmark" style="color: black;"></i>
+      </div>
+    </div>
+
+    <!-- Likes -->
+    <div class="post-likes">
+      <p>liked by <b>4GeeksAcademy</b>, <b>html5</b>, <b>Lia88</b>, and <b>5000 others</b></p>
+    </div>
+
+    <!-- Description -->
+    <div class="post-description">
+      <p>At the southern tip of the Americas lies magical, mystical Patagonia. She is a vast, remote, and storied region and home to some of our planet’s most sublime mountains—and extreme weather. </p> </div>
